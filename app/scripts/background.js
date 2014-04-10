@@ -8,15 +8,14 @@ chrome.webRequest.onBeforeRequest.addListener(
     },
     {
         urls: [
-            "*://*.pizzahut.co.uk/*",
-            "*://*.dominos.co.uk/*",
-            "*://*.papajohns.co.uk/*",
-            "*://*.just-eat.co.uk/*",
-            "*://*.hungryhouse.co.uk/*",
-            "*://*.grubhub.com/*",
-            "*://*.meal2go.com/*",
-            "*://*.curriesonline.co.uk/*",
-            "*://*.eatstudent.co.uk/*"
+            "*://*.thuisbezorgd.nl/*",
+            "*://*.justeat.nl/*",
+            "*://*.bezorgbeer.nl/*",
+            "*://*.sotasty.nl/*",
+            "*://*.ifoods.nl/*",
+            "*://*.sneleten.nl/*",
+            "*://*.dominos.com/*",
+            "*://*.dominos.nl/*"
         ],
         types: ["main_frame", "sub_frame", "stylesheet", "script", "image", "object", "xmlhttprequest", "other"]
     },
